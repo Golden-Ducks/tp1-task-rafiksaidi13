@@ -49,3 +49,21 @@ for sentence in d:
     normalized = norm(sentence)
     print(normalized)
     print(tokenize(normalized))
+
+
+#     line 13
+# Use string.punctuation bcz it's better than typing out specific marks manually
+    
+#     line 30
+# building strings with += inside a loop is discouraged bcz strings are immutable
+# use a list and then .join() for better performance
+    
+#     line 28
+# btw, you can use .get() here to handle the dict lookup and the "else" in one line
+    
+#     line 37
+# you can use a list comprehension here to clean and normalize everything in one go
+
+# Next time,try to solve the logic yourself instead of just renaming someone else's work
+
+
